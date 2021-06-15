@@ -38,7 +38,7 @@ export default class IndexPage extends React.Component {
     <h1>Hi people 147</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
-    <p>branch develop</p>
+    <p>branch develop test modification</p>
     <form action="" method="post" onSubmit={this.handleSubmit}>
       <label htmlFor="nom">Nom : <input 
       type="text" 
