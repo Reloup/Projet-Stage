@@ -14,7 +14,7 @@ export default class IndexPage extends React.Component {
     nom: "",
     email: "",
   }
-
+// Actualise les données rentrer dans le champ a chaque changement
   handleInputChange = event => {
     const target = event.target
     console.log(target.value)
@@ -24,9 +24,6 @@ export default class IndexPage extends React.Component {
       [name]: value,
     })
 
-    this.setState({
-      [name]: value,
-    })
   }
 
     handleSubmit = event => {
@@ -41,6 +38,7 @@ export default class IndexPage extends React.Component {
     <h1>Hi people 147</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
+    <p>branch develop</p>
     <form action="" method="post" onSubmit={this.handleSubmit}>
       <label htmlFor="nom">Nom : <input 
       type="text" 
@@ -66,6 +64,10 @@ export default class IndexPage extends React.Component {
       <option>chaise</option>
       <option>table</option>
     </select>
+
+    <div>
+      
+    </div>
     <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
