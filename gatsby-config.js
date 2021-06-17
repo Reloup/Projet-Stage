@@ -7,6 +7,9 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    // Importe le css dans gatsby sous forme de fichier sass ou  scss
+    `gatsby-plugin-sass`,
+    
     {
       resolve: `gatsby-source-filesystem`,
       options: {

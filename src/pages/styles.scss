@@ -1,0 +1,76 @@
+
+
+$font-stack: Helvetica, sans-serif;
+$primary-color: rgb(46, 46, 49);
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+  }
+
+  #titreFormulaire{
+    border: 1rem solid;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+
+#bloc1{
+  
+  background: #D58F5C;
+  text-align: center;
+  border: solid;
+  border-radius: 20px;
+}
+
+
+
+#expliquerVotreProjet{
+  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  border: 6px solid;
+  border-radius: 20px;
+}
+
+#typeFenetre{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: #1E2023;
+  opacity: 0.1 ;
+color: white;
+border-radius: 20px;
+width: 400px;
+height: 70px;
+box-shadow: 4px 4px #ccc;
+  
+}
+
+#nbrFenetre{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: #1E2023;
+  opacity: 0.1;
+border-radius: 20px;
+color: white;
+width: 400px;
+height: 70px;
+box-shadow: 4px 4px #ccc;
+text-align: center;
+}
+
+#submitFenetre{
+  background: #1E2023;
+  opacity: 0.6;
+  font-family: monospace  ;
+  color: white;
+  border-radius: 20px;
+  width: 150px;
+  height: 30px;
+  box-shadow: 4px 4px #ccc;
+}
+
+@media only screen and (max-width: 1000px) { 
+    p{
+      color: red;
+    }
+  }
+  
